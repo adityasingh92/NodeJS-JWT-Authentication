@@ -1,0 +1,22 @@
+{
+  "name": "project-node-one",
+  "version": "1.0.0",
+  "description": "Basic user auth using Node and JWT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "main": "index.js",
+  "author": "Aditya Singh",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.6",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
